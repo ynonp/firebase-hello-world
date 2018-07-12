@@ -10,6 +10,9 @@
 Agenda (written in Hebrew)
 https://www.tocode.co.il/blog/2018-07-firebase-getting-started
 
+Part 2:
+https://www.tocode.co.il/blog/2018-07-firebase-part2
+
 Code
 https://www.dropbox.com/sh/5a0zj6dbwroff1s/AACjrvrLp5ItoHcO38-QFs8Ia?dl=0
 

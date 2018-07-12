@@ -1,0 +1,28 @@
+body {
+    background: lightblue;
+}
+
+canvas {
+    border: 1px solid purple;
+}
+
+.side-by-side {
+    display: flex;
+}
+
+.feed ul {
+    list-style: none;
+}
+
+.feed img {
+    max-width: 100%;
+    max-height: 100px;
+}
+
+.feed li {
+    border-bottom: 1px solid;
+}
+
+.feed li.active {
+    background: #888888;
+}

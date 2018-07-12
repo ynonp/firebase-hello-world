@@ -1,7 +1,16 @@
 service cloud.firestore {
   match /databases/{database}/documents {
+    match /taglines/{id} {
+        allow read, write: if request.auth.uid == id;
+    }
+
+    match /paintings/{document=**} {
+    	allow read, write: if true;
+    }
+
+
     match /{document=**} {
-      allow read, write;
+      allow read, write: if false;
     }
   }
 }
